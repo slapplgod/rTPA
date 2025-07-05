@@ -10,4 +10,4 @@ This plugin allows the player to request to teleport to another player. There ar
 2. This plugin is way more user-friendly than other similar plugins.
 
 > [!NOTE]
-> rTPA is made in English primarily. The software plans to have official translations for German and French. If you wish to add more languages, a Crowdin will be released prior to the projects release.
+> rTPA is made in English primarily. The software plans to have official translations for German and French. If you wish to add more languages, a Crowdin project will be released prior to the projects release.
