@@ -42,7 +42,7 @@ The installation for the plugin is similar to all other plugins.
 ## Contributing
 
 ### Did you find an issue with the plugin?
-Please send in an issue if you can! [Open an issue](https://github.com/slapplgod/rTPA/issues) and specify all details so that the bug gets fixed as soon as possible.
+Please send in an issue if you can! [Please open an issue](https://github.com/slapplgod/rTPA/issues) and specify all details so that the bug gets fixed as soon as possible.
 
 If a bug requires my immediate attention for any reason, [join the discord server](https://discord.gg/PryepsUf6Y) and open a ticket.
 
