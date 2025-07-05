@@ -7,7 +7,8 @@ A Minecraft Server plugin that adds TPA and rTPA functionality.
 
 This plugin allows the player to request to teleport to another player. There are benefits to using this plugin over others, such as;
 1. The plugin is way more customizable. Nearly every core feature can be turned on or off, or can even be changed.
-2. This plugin is way more user-friendly than other similar plugins.
+2. rTPA includes a new feature; friending. If you have someone friended, you can teleport to them without sending a request.
+3. This plugin is way more user-friendly than other similar plugins.
 
 ## Installation
 
@@ -20,6 +21,18 @@ The installation for the plugin is similar to all other plugins.
 2. In your server files, locate the 'plugins' folder.
 3. Cut (Ctrl+X) and Paste (Ctrl+V) the .jar file into the folder.
 
-> [!TIP]
+> [!NOTE]
 > Use Paper if you want to have the smoothest and most enjoyable experience; Paper is a fork of Spigot with a more expansive plugin API, which other versions may not have.
 
+## Commands
+
+- `/tpa <player>` - Send a teleport request to the player.
+- `/tpahere <player>` - Send a request for the player to teleport to you.
+- `/tpaccept <player>` - Accept the pending teleport request.
+- `/tpadeny` - Denies the pending teleport 
+- `/tpacancel` - Cancels the outgoing teleport request.
+- `/rtpa` - Opens the settings for the plugin.
+- `/rtpa friend <player>` - Sends in a request to friend the player.
+
+> [!TIP]
+> Friending is a powerful tool that can be exploited easily! Only friend those who you trust.
