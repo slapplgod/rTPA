@@ -1,7 +1,7 @@
 # rTPA
 A Minecraft Server plugin that adds TPA and rTPA functionality and is maintained frequently.
 > [!CAUTION]
-> This plugin is not released yet! It is still in active development. When the plugin is ready for use, this branch will be merged into the `main` branch.
+> This plugin is not released yet! It is still in active development. When the plugin is ready for use, an announcement will be posted.
 
 ## Features
 
