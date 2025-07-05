@@ -43,6 +43,7 @@ The installation for the plugin is similar to all other plugins.
 
 ### Did you find an issue with the plugin?
 Please send in an issue if you can! Use the template that I have made when sending in issues to make it easier for the bug to be fixed.
+
 If a bug requires my immediate attention for any reason, [join the discord server](https://discord.gg/PryepsUf6Y) and open a ticket.
 
 ### Are you requesting a feature?
