@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'me.slapplegod'
+version '0.1'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'spigot-repo'
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.20.1-R0.1-SNAPSHOT'
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+jar {
+    archiveBaseName = 'rTPA'
+    archiveVersion = version
+    manifest {
+        attributes(
+            'Main-Class': 'me.slapplegod.rtpa.RTPAPlugin'
+        )
+    }
+}
