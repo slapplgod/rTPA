@@ -29,7 +29,7 @@ The installation for the plugin is similar to all other plugins.
 - `/tpa <player>` - Send a teleport request to the player.
 - `/tpahere <player>` - Send a request for the player to teleport to you.
 - `/tpaccept <player>` - Accept the pending teleport request.
-- `/tpadeny` - Denies the pending teleport 
+- `/tpadeny` - Denies the pending teleport request.
 - `/tpacancel` - Cancels the outgoing teleport request.
 - `/rtpa` - Opens the settings for the plugin.
 - `/rtpa friend <player>` - Sends in a request to friend the player.
