@@ -15,7 +15,8 @@ The installation process is similar to any other plugin.
 
 ## Usage
 
-- `/tpa <player>` - Send a teleport request to the player you specified. If you have friended the user, it acts like `/tp <player>`.
+- `/tpa <player>` - Send a teleport request to the player you specified. If you have friended the player, it acts like `/tp <player>`.
+- `/tpahere <player>` - Send a request for the player to teleport to you. If you have friended the player, it acts like `/tp <player>`.
 - `/tpaccept` - Accept the pending teleport request; player will teleport to you. If there are multiple teleport requests at once, you will have to specify the player.
 - `/tpadeny` - Denies the teleport request. Unlike `/tpaccept`, it denies all requests. If your teleport request gets denied, you have a 30 second cooldown before you can retry.
 - `/tpacancel` - Cancels the teleport request you sent in.
