@@ -34,4 +34,4 @@ Localization is planned for a major update.
 ❗Do NOT attempt to change any of the settings while the server is running; there is a major risk for corruption otherwise.
 By downloading and installing rTPA, you agree to the following terms:
 <!-- Link to be addded. -->
-TL;DR: I am not liable for any damages the plugin causes to your server; it is your responsibility to back up your server frequently.
+> TL;DR: I am not liable for any damages the plugin causes to your server; it is your responsibility to back up your server frequently.
