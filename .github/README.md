@@ -43,9 +43,8 @@ Use the Sponsor button found at the top of the page to either sponsor me monthly
 
 Everyone who has sponsored me for at least 3 months or has paid at least 25 dollars will be shouted out below!
 
-Hall of Sponsors:
-none (yet) :(
-<!-- GitHub Sponsors is not set up yet. -->
+### Hall of Sponsors:
+None, yet. :(
 
 ## Disclaimer
 The project is still in beta and releases are not planned yet. When the project does come out, you will be able to install it from CurseForge or from Modrinth.
