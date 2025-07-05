@@ -61,7 +61,7 @@ Thank you for doing so! Here's a few things to clarify before you move on;
 If you are still happy to contribute, please follow [this guideline]() for contributing.
 
 > [!IMPORTANT]
-> Please state your issue as clearly as possible! If you can, please add screenshots. If you are doing a PR, make sure to clearly describe what your additions change, or they will be denied.
+> Please state your issue as clearly as possible! If you can, please add screenshots. If you are requesting a pull, make sure to clearly describe what your additions change, or they will be denied.
 
 ## Sponsoring
 
