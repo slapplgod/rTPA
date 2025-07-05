@@ -35,6 +35,18 @@ Please refer to this file explaining how to file a bug report.
 ### Do you wish to contribute to the project?
 Please refer to this file for contributing.
 
+## Sponsoring
+
+First of all, thank you for wanting to sponsor me! Below are instructions to sponsor me through GitHub Sponsors.
+
+Use the Sponsor button found at the top of the page to either sponsor me monthly or once (one-time).
+
+Everyone who has sponsored me for at least 3 months or has paid at least 25 dollars will be shouted out below!
+
+Hall of Sponsors:
+none (yet) :(
+<!-- GitHub Sponsors is not set up yet. -->
+
 ## Disclaimer
 The project is still in beta and releases are not planned yet. When the project does come out, you will be able to install it from CurseForge or from Modrinth.
 <!-- Update this section when the plugin releases. -->
