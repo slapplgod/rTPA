@@ -1,7 +1,9 @@
 # rTPA
-A Minecraft Server plugin that adds TPA and rTPA functionality and is maintained frequently.
+
 > [!CAUTION]
 > This plugin is not released yet! It is still in active development. When the plugin is ready for use, an announcement will be posted.
+
+A Minecraft Server plugin that adds TPA and rTPA functionality and is maintained frequently.
 
 ## Features
 
@@ -12,19 +14,17 @@ This plugin allows the player to request to teleport to another player. There ar
 
 ## Installation
 
-The installation for the plugin is similar to all other plugins.
-
 > [!NOTE]
 > Use Paper if you want to have the smoothest and most enjoyable experience; Paper is a fork of Spigot with a more expansive plugin API, which other versions may not have.
 
 > [!WARNING]
 > Make sure to download the correct version!
 
+The installation for the plugin is similar to all other plugins.
+
 1. Download the latest release. A .jar file will be downloaded.
 2. In your server files, locate the 'plugins' folder.
 3. Cut (Ctrl+X) and Paste (Ctrl+V) the .jar file into the folder.
-
-
 
 ## Commands
 
