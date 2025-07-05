@@ -1,0 +1,44 @@
+package me.slapplegod.rtpa;
+
+import org.bukkit.Bukkit;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+public class RTPACommand implements CommandExecutor {
+
+    @Override
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (!(sender instanceof Player requester)) {
+            sender.sendMessage("Only players can use this command!");
+            return true;
+        }
+
+        if (args.length != 1) {
+            requester.sendMessage("Usage: /rtpa <player>");
+            return true;
+        }
+
+        Player target = Bukkit.getPlayer(args[0]);
+        if (target == null || !target.isOnline()) {
+            requester.sendMessage("Player not found or not online.");
+            return true;
+        }
+
+        if (target.equals(requester)) {
+            requester.sendMessage("You can’t send a teleport request to yourself.");
+            return true;
+        }
+
+        // Here you’d add your teleport request logic (storing requests, notifying target, etc.)
+        target.sendMessage(requester.getName() + " wants to teleport to you! Use /tpaccept or /tpadeny.");
+        requester.sendMessage("Teleport request sent to " + target.getName());
+
+        return true;
+    }
+}
+
+// Inside onCommand method, after validating players:
+RTPAPlugin.instance.teleportRequests.put(target.getUniqueId(), requester.getUniqueId());
+

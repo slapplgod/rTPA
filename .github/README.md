@@ -1,59 +1,74 @@
 # rTPA
-Minecraft Server (primarily PaperMC) plugin that adds rTPA and TPA functionality.
+A Minecraft Server plugin that adds TPA and rTPA functionality and is maintained frequently.
+> [!CAUTION]
+> This plugin is not released yet! It is still in active development. When the plugin is ready for use, this branch will be merged into the `main` branch.
+
 ## Features
 
-- Allows people to request to teleport to another player.
-- Also allows people to 'friend' other players. When you request to teleport to a friended player, you bypass the request and immediately teleport to them.
-- The plugin has high customizability. Server owners have the ability to set a large majority of the plugin.
+This plugin allows the player to request to teleport to another player. There are benefits to using this plugin over others, such as;
+1. The plugin is way more customizable. Nearly every core feature can be turned on or off, or can even be changed.
+2. rTPA includes a new feature; friending. If you have someone friended, you can teleport to them without sending a request.
+3. This plugin is way more user-friendly than other similar plugins.
 
 ## Installation
 
-The installation process is similar to any other plugin.
-1. Download the latest  .jar file.
-2. In your server filed, locate the 'plugins' folder.
-3. Paste it into the folder.
+The installation for the plugin is similar to all other plugins.
 
-## Usage
+> [!NOTE]
+> Use Paper if you want to have the smoothest and most enjoyable experience; Paper is a fork of Spigot with a more expansive plugin API, which other versions may not have.
 
-- `/tpa <player>` - Send a teleport request to the player you specified. If you have friended the player, it acts like `/tp <player>`.
-- `/tpahere <player>` - Send a request for the player to teleport to you. If you have friended the player, it acts like `/tp <player>`.
-- `/tpaccept` - Accept the pending teleport request; player will teleport to you. If there are multiple teleport requests at once, you will have to specify the player.
-- `/tpadeny` - Denies the teleport request. Unlike `/tpaccept`, it denies all requests. If your teleport request gets denied, you have a 30 second cooldown before you can retry.
-- `/tpacancel` - Cancels the teleport request you sent in.
-- `/rtpa` - Opens the settings for the plugin.
+> [!WARNING]
+> Make sure to download the correct version!
 
-  *Notice for server owners:* For technical and safety reasons, you cannot change server settings in-game. Locate the plugin's config files and change the settings from there.
-- `/rtpa friend <player>` - Sends a request to friend said user. If they accept, you have the ability to bypass the request and are able to teleport to the player immediately.
-  
-  **⚠️ WARNING:** You can only send a friend request to a user once. If they deny your request, you cannot request to friend them again; the only exception is if they request to friend you.
+1. Download the latest release. A .jar file will be downloaded.
+2. In your server files, locate the 'plugins' folder.
+3. Cut (Ctrl+X) and Paste (Ctrl+V) the .jar file into the folder.
+
+
+
+## Commands
+
+- `/tpa <player>` - Send a teleport request to the player.
+- `/tpahere <player>` - Send a request for the player to teleport to you.
+- `/tpaccept <player>` - Accept the pending teleport request.
+- `/tpadeny` - Denies the pending teleport request.
+- `/tpacancel` - Cancels the outgoing teleport request.
+- `/rtpa` - Opens the user settings for the plugin.
+- `/rtpa friend <player>` - Sends in a request to friend the player.
+
+> [!TIP]
+> Friending is a powerful tool that can be exploited easily! Only friend those who you trust.
 
 ## Contributing
 
-### Do you have an issue or did you find a bug?
-Please refer to this file explaining how to file a bug report.
+### Did you find an issue with the plugin?
+Please send in an issue if you can! [Open an issue](https://github.com/slapplgod/rTPA/issues) and specify all details so that the bug gets fixed as soon as possible.
+
+If a bug requires my immediate attention for any reason, [join the discord server](https://discord.gg/PryepsUf6Y) and open a ticket.
+
+### Are you requesting a feature?
+Please do understand that I appreciate all feature requests, but they will be likely denied for 2 reasons;
+1. I cannot work on requests that are out of my skill level. If I can't do something, it probably won't be worked on.
+2. I cannot work on requests that are not important to the project. A TPA plugin shouldn't include shaders and vice-versa.
+
+If you believe that your request follows these rules, [open an issue.](https://github.com/slapplgod/rTPA/issues)
 
 ### Do you wish to contribute to the project?
-Please refer to this file for contributing.
+Thank you for doing so! Here's a few things to clarify before you move on;
+1. For security reasons, you will not be able to work directly on the repository, you will have to [fork the repository](https://github.com/slapplgod/rTPA/fork) and work on it there.
+2. Please do understand that my coding skills are not the best. While I can read and understand code, I can't really write code myself without help, so apologies if I sometimes miss bugs or respond slow.
+
+If you are still happy to contribute, please follow [this guideline]() for contributing.
+
+> [!IMPORTANT]
+> Please state your issue as clearly as possible! If you can, please add screenshots. If you are doing a PR, make sure to clearly describe what your additions change, or they will be denied.
 
 ## Sponsoring
 
-First of all, thank you for wanting to sponsor me! Below are instructions to sponsor me through GitHub Sponsors.
-
-Use the Sponsor button found at the top of the page to either sponsor me monthly or once (one-time).
-
-Everyone who has sponsored me for at least 3 months or has paid at least 25 dollars will be shouted out below!
-
-### Hall of Sponsors:
-None, yet. :(
+Thank you for sponsoring! <3
+On the top of the page, click the sponsor button and donate your monthly or one-time amount. All donations are very welcome!
+If you donated more than 10 dollars, you will be featured as a sponsor of my plugin directly on all platforms I publish to!
 
 ## Disclaimer
-The project is still in beta and releases are not planned yet. When the project does come out, you will be able to install it from CurseForge or from Modrinth.
-<!-- Update this section when the plugin releases. -->
-Localization is planned for a major update.
 
-The plugin is built for Paper primarily, other server softwares may not work as intended due to this. Please do not open issues if you are not using Paper.
-
-❗Do NOT attempt to change any of the settings while the server is running; there is a major risk for corruption otherwise.
-By downloading and installing rTPA, you agree to [the following terms.](TERMS.md)
-<!-- Link to be addded. -->
-> TL;DR: I am not liable for any damages the plugin causes to your server; it is your responsibility to back up your server frequently.
+By downloading and installing the plugin, I agree to the [terms of use](TERMS.md) and [privacy policy.](PRIVACY.md)

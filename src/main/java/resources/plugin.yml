@@ -1,0 +1,11 @@
+name: rTPA
+version: 0.2
+main: me.slapplegod.rtpa.RTPAPlugin
+api-version: 1.20
+commands:
+  rtpa:
+    description: Request to teleport to another player
+  tpaccept:
+    description: Accept a teleport request
+  tpadeny:
+    description: Deny a teleport request

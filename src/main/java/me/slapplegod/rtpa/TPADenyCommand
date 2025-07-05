@@ -1,0 +1,73 @@
+package me.slapplegod.rtpa;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+import java.util.UUID;
+
+public class TPADenyCommand implements CommandExecutor {
+    @Override
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (!(sender instanceof Player target)) {
+            sender.sendMessage("Only players can use this command!");
+            return true;
+        }
+
+        UUID targetUUID = target.getUniqueId();
+        if (!RTPAPlugin.instance.teleportRequests.containsKey(targetUUID)) {
+            target.sendMessage("You don’t have any pending teleport requests.");
+            return true;
+        }
+
+        UUID requesterUUID = RTPAPlugin.instance.teleportRequests.remove(targetUUID);
+        Player requester = Bukkit.getPlayer(requesterUUID);
+
+        if (requester != null && requester.isOnline()) {
+            requester.sendMessage(target.getName() + " denied your teleport request.");
+        }
+
+        target.sendMessage("Teleport request denied.");
+
+        return true;
+    }
+}
+
+package me.slapplegod.rtpa;
+
+import org.bukkit.Bukkit;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+import java.util.UUID;
+
+public class TPADenyCommand implements CommandExecutor {
+
+    @Override
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (!(sender instanceof Player target)) {
+            sender.sendMessage("Only players can use this command!");
+            return true;
+        }
+
+        UUID targetUUID = target.getUniqueId();
+        if (!RTPAPlugin.instance.teleportRequests.containsKey(targetUUID)) {
+            target.sendMessage("You don’t have any pending teleport requests.");
+            return true;
+        }
+
+        UUID requesterUUID = RTPAPlugin.instance.teleportRequests.remove(targetUUID);
+        Player requester = Bukkit.getPlayer(requesterUUID);
+
+        if (requester != null && requester.isOnline()) {
+            requester.sendMessage(target.getName() + " denied your teleport request.");
+        }
+
+        target.sendMessage("Teleport request denied.");
+
+        return true;
+    }
+}
