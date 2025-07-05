@@ -42,7 +42,7 @@ The installation for the plugin is similar to all other plugins.
 ## Contributing
 
 ### Did you find an issue with the plugin?
-Please send in an issue if you can! Use the template that I have made when sending in issues to make it easier for the bug to be fixed.
+Please send in an issue if you can! [Open an issue](https://github.com/slapplgod/rTPA/issues) and specify all details so that the bug gets fixed as soon as possible.
 
 If a bug requires my immediate attention for any reason, [join the discord server](https://discord.gg/PryepsUf6Y) and open a ticket.
 
@@ -50,6 +50,8 @@ If a bug requires my immediate attention for any reason, [join the discord serve
 Please do understand that I appreciate all feature requests, but they will be likely denied for 2 reasons;
 1. I cannot work on requests that are out of my skill level. If I can't do something, it probably won't be worked on.
 2. I cannot work on requests that are not important to the project. A TPA plugin shouldn't include shaders and vice-versa.
+
+If you believe that your request follows these rules, [open an issue.](https://github.com/slapplgod/rTPA/issues)
 
 ### Do you wish to contribute to the project?
 Thank you for doing so! Here's a few things to clarify before you move on;
