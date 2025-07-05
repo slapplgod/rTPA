@@ -27,10 +27,20 @@ The installation process is similar to any other plugin.
   
   **⚠️ WARNING:** You can only send a friend request to a user once. If they deny your request, you cannot request to friend them again; the only exception is if they request to friend you.
 
+## Contributing
+
+### Do you have an issue or did you find a bug?
+Please refer to this file explaining how to file a bug report.
+
+### Do you wish to contribute to the project?
+Please refer to this file for contributing.
+
 ## Disclaimer
 The project is still in beta and releases are not planned yet. When the project does come out, you will be able to install it from CurseForge or from Modrinth.
 <!-- Update this section when the plugin releases. -->
 Localization is planned for a major update.
+
+The plugin is built for Paper primarily, other server softwares may not work as intended due to this. Please do not open issues if you are not using Paper.
 
 ❗Do NOT attempt to change any of the settings while the server is running; there is a major risk for corruption otherwise.
 By downloading and installing rTPA, you agree to [the following terms.](TERMS.md)
