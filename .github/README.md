@@ -10,7 +10,7 @@ Minecraft Server (primarily PaperMC) plugin that adds rTPA and TPA functionality
 
 The installation process is similar to any other plugin.
 1. Download the latest  .jar file.
-2. In your PaperMC server, locate the 'plugins' folder.
+2. In your server filed, locate the 'plugins' folder.
 3. Paste it into the folder.
 
 ## Usage
