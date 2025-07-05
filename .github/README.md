@@ -1,5 +1,5 @@
 # rTPA
-A Minecraft Server plugin that adds TPA and rTPA functionality.
+A Minecraft Server plugin that adds TPA and rTPA functionality and is maintained frequently.
 > [!CAUTION]
 > This plugin is not released yet! It is still in active development. When the plugin is ready for use, this branch will be merged into the `main` branch.
 
@@ -17,12 +17,14 @@ The installation for the plugin is similar to all other plugins.
 > [!WARNING]
 > Make sure to download the correct version!
 
+> [!NOTE]
+> Use Paper if you want to have the smoothest and most enjoyable experience; Paper is a fork of Spigot with a more expansive plugin API, which other versions may not have.
+
 1. Download the latest release. A .jar file will be downloaded.
 2. In your server files, locate the 'plugins' folder.
 3. Cut (Ctrl+X) and Paste (Ctrl+V) the .jar file into the folder.
 
-> [!NOTE]
-> Use Paper if you want to have the smoothest and most enjoyable experience; Paper is a fork of Spigot with a more expansive plugin API, which other versions may not have.
+
 
 ## Commands
 
@@ -31,7 +33,7 @@ The installation for the plugin is similar to all other plugins.
 - `/tpaccept <player>` - Accept the pending teleport request.
 - `/tpadeny` - Denies the pending teleport request.
 - `/tpacancel` - Cancels the outgoing teleport request.
-- `/rtpa` - Opens the settings for the plugin.
+- `/rtpa` - Opens the user settings for the plugin.
 - `/rtpa friend <player>` - Sends in a request to friend the player.
 
 > [!TIP]
