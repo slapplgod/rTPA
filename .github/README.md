@@ -20,11 +20,13 @@ This plugin allows the player to request to teleport to another player. There ar
 > [!WARNING]
 > Make sure to download the correct version!
 
-The installation for the plugin is similar to all other plugins.
+The installation for the plugin is similar to all other plugins. If you are using the latest version;
 
 1. Download the latest release. A .jar file will be downloaded.
 2. In your server files, locate the 'plugins' folder.
 3. Cut (Ctrl+X) and Paste (Ctrl+V) the .jar file into the folder.
+
+If you need a specific version of the plugin, you can locate them in the releases tab.
 
 ## Commands
 
