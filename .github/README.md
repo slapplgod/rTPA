@@ -15,7 +15,7 @@ This plugin allows the player to request to teleport to another player. There ar
 ## Installation
 
 > [!NOTE]
-> Use Paper if you want to have the smoothest and most enjoyable experience; Paper is a fork of Spigot with a more expansive plugin API, which other versions may not have.
+> Use Paper if you want to have the smoothest and most enjoyable experience; Paper is a fork of Spigot with more features than other software.
 
 > [!WARNING]
 > Make sure to download the correct version!
