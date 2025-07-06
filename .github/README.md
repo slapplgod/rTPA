@@ -53,12 +53,12 @@ Please do understand that I appreciate all feature requests, but they will be li
 1. I cannot work on requests that are out of my skill level. If I can't do something, it probably won't be worked on.
 2. I cannot work on requests that are not important to the project. A TPA plugin shouldn't include shaders and vice-versa.
 
-If you believe that your request follows these rules, [open an issue.](https://github.com/slapplgod/rTPA/issues)
+If you believe that your request follows these rules, [open a request.](https://github.com/slapplgod/rTPA/issues)
 
 ### Do you wish to contribute to the project?
 Thank you for doing so! Here's a few things to clarify before you move on;
 1. For security reasons, you will not be able to work directly on the repository, you will have to [fork the repository](https://github.com/slapplgod/rTPA/fork) and work on it there.
-2. Please do understand that my coding skills are not the best. While I can read and understand code, I can't really write code myself without help, so apologies if I sometimes miss bugs or respond slow.
+2. Please do understand that my coding skills are not the best. While I can read and understand code, I can't really write code myself without some kind of help, so apologies if I sometimes miss bugs or respond slow.
 
 If you are still happy to contribute, please follow [this guideline]() for contributing.
 
